@@ -1,66 +1,8 @@
-## Foundry
+## Deployed Contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+| Field    | Value                                                                                  |
+| -------- | -------------------------------------------------------------------------------------- |
+| Network  | Lisk Sepolia (Chain ID: 4202)                                                          |
+| Address  | 0x8fcF7F06bdb279B97Fd7Aad35C7502c4FE63d9A7                                             |
+| Explorer | https://sepolia-blockscout.lisk.com/address/0x8fcF7F06bdb279B97Fd7Aad35C7502c4FE63d9A7 |
+| Deployer | 0xb8D3438d254bE3AD838041aB22B21B7172Dcab03                                             |
