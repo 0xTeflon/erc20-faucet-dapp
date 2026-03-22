@@ -1,0 +1,13 @@
+# Foundry
+faucet-dapp/out/
+faucet-dapp/cache/
+faucet-dapp/.env
+
+# Frontend
+faucet-frontend/node_modules/
+faucet-frontend/dist/
+faucet-frontend/.env
+
+# General
+.DS_Store
+*.log
